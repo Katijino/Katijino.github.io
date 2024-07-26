@@ -19,7 +19,7 @@ class FlipApp:
     def run_flip(self):
         # Command to run the software
         # Replace 'flip_main.py' with your actual main script or executable
-        flip_command = os.path.expanduser("~\\FLIP\\flip_main.py")
+        flip_command = os.path.expanduser("main.py")
         
         subprocess.run(["python", flip_command])
 
